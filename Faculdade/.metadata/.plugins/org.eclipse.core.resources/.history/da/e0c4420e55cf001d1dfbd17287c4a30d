@@ -1,0 +1,19 @@
+package aulaDia300323;
+
+import java.util.Scanner;
+
+public class Alg93 {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.print("Digite um numero: ");
+		int num = ler.nextInt();
+		
+		if(num > 0) {
+			int raiz = num / 2;
+			System.out.printf("Raiz Quadrada de %d é: %d", num, raiz);
+		}
+		
+		ler.close();
+	}
+}
